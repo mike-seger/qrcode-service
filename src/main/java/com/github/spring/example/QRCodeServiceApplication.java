@@ -41,8 +41,8 @@ public class QRCodeServiceApplication {
 	@RequestMapping(value = qrcodeENDPOINT, produces = MediaType.IMAGE_PNG_VALUE, method = {POST, GET})
 	public ResponseEntity<byte[]> getQRCode(
 			@RequestParam(value = "text") String text,
-			@RequestParam(value = "logoFile", required=false) byte logoFile,
-			@RequestParam(value = "logo", required=false) byte logo
+			@RequestParam(value = "logoFile", required=false) String logoFile,
+			@RequestParam(value = "logo", required=false) byte [] logo
 	) {
 		//TODO use logo parameters to produce QR with embedded logo
 		try {
