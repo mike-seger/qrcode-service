@@ -4,5 +4,5 @@ Spring Boot QrCode Service
 ```
 curl http://localhost:17500/qrcode?text=Hello%20World%20From%20Spring
 ```
-or browse:
+or browse:  
 http://localhost:17500/qrcode.html
