@@ -1,4 +1,4 @@
-package com.github.spring.example;
+package com.net128.app;
 
 import java.io.*;
 

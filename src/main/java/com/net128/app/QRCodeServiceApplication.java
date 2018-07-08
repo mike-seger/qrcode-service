@@ -1,4 +1,4 @@
-package com.github.spring.example;
+package com.net128.app;
 
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
-import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
 @Controller
 @EnableAsync
@@ -26,7 +25,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
 public class QRCodeServiceApplication {
 
 	static final String qrcodeENDPOINT = "/qrcode";
-	
+
 	@Autowired
 	private ImageService imageService;
 

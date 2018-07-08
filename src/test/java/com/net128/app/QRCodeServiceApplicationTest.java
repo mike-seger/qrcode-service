@@ -1,4 +1,4 @@
-package com.github.spring.example;
+package com.net128.app;
 
 import static org.junit.Assert.assertNotNull;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
