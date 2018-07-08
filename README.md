@@ -1,4 +1,8 @@
-Spring Boot QrCode Example
+Spring Boot QrCode Service
 -------------------
-[http://localhost:8080/qrcode?text=Hello%20World%20From%20Spring](http://localhost:8080/qrcode?text=Hello%20World%20From%20Spring)
-# qrcode-service
+## Examples
+```
+curl http://localhost:17500/qrcode?text=Hello%20World%20From%20Spring
+```
+or browse:
+http://localhost:17500/qrcode.html
