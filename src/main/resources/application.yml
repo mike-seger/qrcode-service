@@ -4,14 +4,11 @@ server:
 spring:
   mvc:
     favicon:
-      enabled: false  
-      
+      enabled: false
   jmx:
     enabled: false
-    
   cache:
     type: simple
-    
 logging:
   level:
     org.springframework.web: INFO
@@ -19,6 +16,6 @@ logging:
     console: "%d{yyyy-MM-dd'T'HH:mm:ss,SSSXXX, UTC} [%thread] %-5level %logger{36} - %msg%n"
 qrcode:
   service:
-    dimension: 250
+    dimension: 640
   cache:
     maxAgeMinutes: 30
